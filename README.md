@@ -57,3 +57,18 @@ Features of the NFT.
 They are non-tradable which means cant be sold.
 The have different properties (Attached to each area such as Blockchain, AI, ML as solution oriented or Java, Python etc as language oriented properties)
 They are non-exchangeable which means it can’t be sent from one wallet to another either, they can only be issued into a wallet. 
+B. As a job acceptance criteria.
+
+Just as voting on the blockchain can be limited to an asset balance in accounts, job bidding can also be limited to NFT balance in users addresses. 
+Example: A recruiter is looking for a blockchain programmer with proficiency in Solidity. This creates two criteria (NFT properties). The NFT properties in each balance of the trainees are then queried in order to make them eligible to bid on the project. 
+Bidding is done simply by providing two answers or factors which can’t be modified. Project cost and ETA measured by hours to delivery. 
+Bidding is then approved by the project owner and the smart contract kicks in.
+
+C. As a Trainer remuneration base.
+
+Each time an issued NFT is applied in bidding on a project, a royalty smart contract is invoked to process 2.5% deduction payable into the issuers’ account, in this case, the trainer. .
+
+
+Note: 
+
+Not all functions are blockchain based. 
