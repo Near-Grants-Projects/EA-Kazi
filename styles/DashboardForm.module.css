@@ -1,0 +1,30 @@
+.dash h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.dash form {
+  margin-top: 10px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 2.5%;
+  top: 27%;
+}
+
+.dash svg {
+  font-size: x-large;
+  color: #b6b6b6;
+}
+
+@media (max-width: 768px) {
+  .dash {
+    padding: 0 10px;
+  }
+}

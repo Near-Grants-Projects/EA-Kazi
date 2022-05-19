@@ -1,7 +1,7 @@
 .sidebar {
   position: fixed;
   margin-top: 50px;
-  color: #fff;
+  color: var(--white-color);
 }
 
 .sidebar a {
