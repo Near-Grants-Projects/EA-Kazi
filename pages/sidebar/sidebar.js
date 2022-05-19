@@ -1,4 +1,4 @@
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import Link from 'next/link';
 import { BiHomeCircle } from 'react-icons/bi';
 import { BsPower, BsBriefcase } from 'react-icons/bs';
