@@ -1,0 +1,16 @@
+.logoHover {
+  cursor: pointer;
+}
+
+.logoHover img {
+  width: 100px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.links a {
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 10px;
+  color: var(--black-color);
+}
