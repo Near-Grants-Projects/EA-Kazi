@@ -25,7 +25,7 @@
   .sidebarOption {
     display: flex;
     flex-direction: column;
-    color: #fff !important;
+    color: var(--white-color);
   }
 
   .sidebarOption h2 {
