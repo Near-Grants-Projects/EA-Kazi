@@ -1,0 +1,57 @@
+.heroDesktop {
+  margin-top: 50px;
+}
+
+.heroDesktop h1 {
+  font-size: 65px;
+  font-weight: 600;
+  line-height: 82px;
+}
+
+.heroDesktop p {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.startBtn {
+  background-color: var(--blue-btn);
+  padding: 12px 30px !important;
+  border: none !important;
+}
+
+.heroImg {
+  position: relative;
+}
+
+.bids {
+  position: absolute;
+  top: 20%;
+}
+
+.cert {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+}
+
+.cross {
+  position: absolute;
+  top: 0;
+  left: 25%;
+}
+
+@media (max-width: 768px) {
+  .heroDesktop h1 {
+    font-size: 40px;
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 992px) {
+  .bids,
+  .cert,
+  .cross {
+    display: none !important;
+  }
+}

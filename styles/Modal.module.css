@@ -1,0 +1,20 @@
+.navBtn {
+  background-color: var(--blue-btn);
+  padding: 6px 30px !important;
+}
+
+.border {
+  border-bottom: 0 !important;
+}
+
+.loginBtn {
+  background-color: var(--blue-btn);
+  padding: 12px 30px !important;
+  border: none !important;
+}
+
+@media (max-width: 576px) {
+  .navBtn {
+    margin-top: 8px;
+  }
+}

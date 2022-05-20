@@ -1,10 +1,10 @@
 import Layout from '@/components/Layout';
-import Header from '@/components/Header';
+import LandingPageDesktop from './landing/landingPageDesktop';
 
 export default function HomePage() {
   return (
     <Layout>
-      <Header />
+      <LandingPageDesktop />
     </Layout>
   );
 }
