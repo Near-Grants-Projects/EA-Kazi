@@ -1,8 +1,8 @@
 import { Col } from 'react-bootstrap';
 import DashboardForm from 'pages/dashboardForm/dashboardForm';
-import DashboardContent from 'pages/dashboardContent/dashboardContent';
-import styles from '@/styles/Feed.module.css';
 import ListInfo from 'pages/dashboardContent/listInfo';
+import Job from 'pages/recommeded/Job';
+import styles from '@/styles/Feed.module.css';
 
 export default function Feed() {
   return (
@@ -10,9 +10,7 @@ export default function Feed() {
       <Col lg={8} xl={10} xxl={10} className='ms-auto mt-4'>
         <DashboardForm />
         <ListInfo />
-        {/* <DashboardContent /> */}
-        {/* Scrollable2 */}
-        {/* Recommeded jobs */}
+        <Job />
       </Col>
     </div>
   );
