@@ -1,0 +1,26 @@
+.proskills h4 {
+  font-family: var(--font-three);
+  color: #22215b;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.left {
+  padding-left: 0 !important;
+}
+
+.left span {
+  font-family: var(--font-three);
+  padding: 15px 40px;
+  background: #f5f9f9;
+  border-radius: 8px;
+  color: #479696;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.pink {
+  color: #ff7e73 !important;
+  background-color: #fff4f4 !important;
+}

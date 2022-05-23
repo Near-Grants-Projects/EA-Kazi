@@ -1,0 +1,41 @@
+.profileHeader h2 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.profileHeader svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+.profinfo {
+  margin-top: 30px;
+  display: flex;
+}
+
+.profinfo h3,
+.profinfo h4,
+.profinfo a {
+  color: #595085;
+  font-family: var(--font-three);
+}
+
+.profinfo h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.profinfo h4 {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: -2px;
+}
+
+.margin {
+  font-size: 12px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-top: -2px;
+}
