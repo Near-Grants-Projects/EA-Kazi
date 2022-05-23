@@ -1,12 +1,14 @@
-import { BsArrowLeft } from 'react-icons/bs';
+import { Row, Col } from 'react-bootstrap';
 import Link from 'next/link';
 import Image from 'next/image';
+import { BsArrowLeft } from 'react-icons/bs';
+import SectionTitle from '@/section/sectionTitle';
 import styles from '@/styles/ProfileHeader.module.css';
 
 export default function ProfileHeader() {
   return (
-    <div className='row'>
-      <div className='col-lg-10 mx-auto mt-4'>
+    <Row>
+      <Col lg={10} className='mx-auto mt-4'>
         <div className={styles.profileHeader}>
           <Link href='/account/dashboard' className='d-flex me-5 mt-4'>
             <a>
@@ -14,11 +16,8 @@ export default function ProfileHeader() {
             </a>
           </Link>
 
-          <div>
-            <h2 className='text-center'>Profile</h2>
-          </div>
+          <SectionTitle title='Profile' />
         </div>
-
         <div className={styles.profinfo}>
           <div>
             <Image
@@ -29,10 +28,10 @@ export default function ProfileHeader() {
             />
           </div>
 
-          <div className='info ms-4'>
+          <div className='ms-4'>
             <h3>marvelous IK</h3>
             <h4>UI/UX Designer</h4>
-            {/* wrap a div around a link to enable adding styling */}
+
             <div className={styles.margin}>
               <Link href='#'>
                 <a>Edit Profile</a>
@@ -40,7 +39,7 @@ export default function ProfileHeader() {
             </div>
           </div>
         </div>
-      </div>
-    </div>
+      </Col>
+    </Row>
   );
 }

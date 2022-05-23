@@ -102,3 +102,47 @@ export const lists = [
     img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/devops_je0mgc.png',
   },
 ];
+
+export const portfolios = [
+  {
+    id: 1,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653301144/ea-kazi/port-circle_ljqqgp.png',
+    title: 'Porfessional UX Desing Certificate',
+    company: 'Jelafrica',
+    status: 'Completed',
+  },
+  {
+    id: 2,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653301144/ea-kazi/port-circle_ljqqgp.png',
+    title: 'Porfessional UX Desing Certificate',
+    company: 'Jelafrica',
+    status: 'In-Progress 75% completed',
+  },
+  {
+    id: 3,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653301144/ea-kazi/port-circle_ljqqgp.png',
+    title: 'Porfessional UX Desing Certificate',
+    company: 'Jelafrica',
+    status: 'In-Progress 75% completed',
+  },
+  {
+    id: 4,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653301144/ea-kazi/port-circle_ljqqgp.png',
+    title: 'Porfessional UX Desing Certificate',
+    company: 'Jelafrica',
+    status: 'In-Progress 75% completed',
+  },
+];
+
+export const portfolioImages = [
+  {
+    id: 1,
+    imgUrl:
+      'https://res.cloudinary.com/dpxs9ause/image/upload/v1653308132/ea-kazi/portfolio1_cfiz6b.png',
+  },
+  {
+    id: 2,
+    imgUrl:
+      'https://res.cloudinary.com/dpxs9ause/image/upload/v1653308132/ea-kazi/portfolio2_hsflk6.png',
+  },
+];

@@ -1,14 +1,14 @@
+import { Row, Col } from 'react-bootstrap';
 import styles from '@/styles/Skills.module.css';
+import Title from './title';
 
-export default function SkillsPage() {
+export default function Skills() {
   return (
-    <div className='row'>
-      <div className='col-lg-10 mx-auto mt-4'>
-        <div className={styles.proskills}>
-          <h4>Skills</h4>
-        </div>
+    <Row>
+      <Col lg={10} className='mx-auto mt-4'>
+        <Title title='Skills' />
 
-        <div className='col-lg-12'>
+        <Col lg={12}>
           <div className={styles.left}>
             <div className='col-lg-12 d-flex flex-wrap align-items-center'>
               <span>UI/UX</span>
@@ -17,8 +17,8 @@ export default function SkillsPage() {
               <span className={styles.pink}>Adobe XD</span>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Col>
+    </Row>
   );
 }

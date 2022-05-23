@@ -1,6 +1,5 @@
 .proportfolio h4,
 .prolist h4 {
-  font-family: var(--font-three);
   color: #22215b;
   font-size: 16px;
   font-weight: 600;
@@ -17,7 +16,6 @@
 }
 
 .proitem h4 {
-  font-family: var(--font-three);
   font-size: 15px;
   font-weight: 400;
   color: #161719;
@@ -28,7 +26,6 @@
 }
 
 .proitem p {
-  font-family: var(--font-three);
   color: #91919f;
   margin-top: -5px;
   font-size: 14px;

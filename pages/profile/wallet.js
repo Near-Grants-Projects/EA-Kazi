@@ -1,21 +1,20 @@
+import { Row, Col } from 'react-bootstrap';
+import Title from './title';
 import styles from '@/styles/Walletpro.module.css';
 
-export default function WalletPage() {
+export default function Wallet() {
   return (
-    <div className='row'>
-      <div className='col-lg-10 mx-auto mt-4'>
-        <div className={styles.prowallet}>
-          <h4>Wallet</h4>
-        </div>
-      </div>
+    <Row>
+      <Col lg={10} className='mx-auto mt-4'>
+        <Title title='Wallet' />
+      </Col>
 
-      {/* Convert to component later */}
       <div className='col-lg-10 mx-auto mb-4'>
         <div className={styles.proamount}>
           <h4>#20,600</h4>
           <p>current balance</p>
         </div>
       </div>
-    </div>
+    </Row>
   );
 }

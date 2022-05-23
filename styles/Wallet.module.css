@@ -1,0 +1,64 @@
+.wallet h2 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+.wallet svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+.walamount {
+  background: rgba(241, 243, 246, 0.6);
+  border-radius: 12px;
+  color: #f1f3f699;
+  padding: 30px 20px;
+}
+
+.walamount > h4 {
+  font-family: var(--font-three);
+  font-size: 20px;
+  font-weight: 600;
+  color: #171822;
+}
+
+.walamount > p {
+  font-family: var(--font-three);
+  font-size: 15px;
+  font-weight: 400;
+  color: #3a4276;
+  margin-top: -5px;
+}
+
+.waicon {
+  width: 40px;
+  height: 40px;
+  border-radius: 250px;
+  background: #caddfc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -10%;
+}
+
+.position {
+  position: relative;
+}
+
+.wabg {
+  box-shadow: 0px 4px 4px rgba(88, 124, 244, 0.17);
+  padding: 20px;
+  margin-bottom: -40px;
+}
+
+.withdrawal > h4 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 50px;
+  margin-top: 5px;
+}
