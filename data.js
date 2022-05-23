@@ -146,3 +146,26 @@ export const portfolioImages = [
       'https://res.cloudinary.com/dpxs9ause/image/upload/v1653308132/ea-kazi/portfolio2_hsflk6.png',
   },
 ];
+
+export const transactions = [
+  {
+    id: 1,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653315262/ea-kazi/withdrawal_mckht1.png',
+    text: 'Withdrawal',
+  },
+  {
+    id: 2,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653315262/ea-kazi/deposit_ry1w7z.png',
+    text: 'Deposit',
+  },
+  {
+    id: 3,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653315262/ea-kazi/transfer_wvcysh.png',
+    text: 'Transfer',
+  },
+  {
+    id: 4,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653315262/ea-kazi/invoice_xytkqo.png',
+    text: 'Invoice',
+  },
+];

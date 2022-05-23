@@ -6,7 +6,7 @@ import { transactions } from '../../data';
 import { BsArrowLeft } from 'react-icons/bs';
 import SectionTitle from '@/section/sectionTitle';
 import CurrentBalance from '@/section/currentBalance';
-import TransactionList from './transactionList';
+import TransactionList from 'pages/wallet/transactionList';
 import styles from '@/styles/Wallet.module.css';
 
 export default function Wallet() {
@@ -31,6 +31,7 @@ export default function Wallet() {
             <CurrentBalance amount='#20,600' text='current balance' />
           </Col>
 
+          {/* Change this to tab later */}
           <Col lg={10} className='mx-auto px-4'>
             <div className='d-flex'>
               <Button variant='secondary'>Transactions</Button>

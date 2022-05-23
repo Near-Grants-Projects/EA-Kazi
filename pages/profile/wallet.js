@@ -1,6 +1,7 @@
 import { Row, Col } from 'react-bootstrap';
 import Title from './title';
-import styles from '@/styles/Walletpro.module.css';
+import CurrentBalance from '@/section/currentBalance';
+// import styles from '@/styles/Walletpro.module.css';
 
 export default function Wallet() {
   return (
@@ -9,12 +10,9 @@ export default function Wallet() {
         <Title title='Wallet' />
       </Col>
 
-      <div className='col-lg-10 mx-auto mb-4'>
-        <div className={styles.proamount}>
-          <h4>#20,600</h4>
-          <p>current balance</p>
-        </div>
-      </div>
+      <Col lg={10} className='mx-auto mb-4'>
+        <CurrentBalance amount='#20,600' text='current balance' />
+      </Col>
     </Row>
   );
 }
