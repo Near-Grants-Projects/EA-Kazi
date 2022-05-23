@@ -14,7 +14,7 @@ export default function Wallet() {
 
   return (
     <Layout title='Wallet'>
-      <Container fluid>
+      <Container fluid className={styles.tWallet}>
         <Row>
           <Col lg={10} className='mx-auto mt-4'>
             <div className={styles.wallet}>
