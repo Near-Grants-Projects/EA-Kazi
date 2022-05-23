@@ -1,6 +1,6 @@
 import { Row, Col } from 'react-bootstrap';
-import styles from '@/styles/Skills.module.css';
 import Title from './title';
+import styles from '@/styles/Skills.module.css';
 
 export default function Skills() {
   return (
