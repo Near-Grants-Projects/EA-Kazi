@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Layout from '@/components/Layout';
 import { BsArrowLeft } from 'react-icons/bs';
 import SectionTitle from '@/section/sectionTitle';
-import AssesmentInfo from './assessmentInfo';
-import AssesementCourseList from './assesementCourseList';
+import AssesmentInfo from './assementInfo';
+import AssesementCourseList from './assementCourseList';
 import styles from '@/styles/AssesementCourse.module.css';
 
 export default function AssesementCourse() {
@@ -28,7 +28,7 @@ export default function AssesementCourse() {
             </Col>
 
             <Col lg={10} className='d-grid gap-2 pt-lg-1 mb-5 mx-auto'>
-              <Link href='/assesement/course-one'>
+              <Link href='/assement/course-one'>
                 <a className='btn btn-primary btn-lg fs-6'>Take course</a>
               </Link>
             </Col>

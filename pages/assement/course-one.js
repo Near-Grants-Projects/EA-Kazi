@@ -14,7 +14,7 @@ export default function CourseOne() {
           <Row>
             <Col lg={10} className='mx-auto pt-3'>
               <div className={styles.acourse}>
-                <Link href='/assesement'>
+                <Link href='/assement'>
                   <a>
                     <BsArrowLeft />
                   </a>

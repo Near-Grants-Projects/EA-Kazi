@@ -82,7 +82,7 @@ export default function JobDetailsPage() {
                 Assesement Quiz
               </a>
             </Link>
-            <Link href='/assesement'>
+            <Link href='/assement'>
               <a className='btn btn-primary btn-lg fs-6'>Take Course</a>
             </Link>
           </div>
