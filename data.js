@@ -169,3 +169,21 @@ export const transactions = [
     text: 'Invoice',
   },
 ];
+
+export const job = [
+  {
+    id: 1,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653394602/ea-kazi/jelurida_rs1ytm.png',
+    role: 'UI Designer',
+    company: 'Jelafrica',
+    location: 'Nigeria',
+    type: 'Full time',
+    description:
+      'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quis asperiores dolorum eaque doloribus aliquam nihil veniam optio. Quam neque, quae totam enim unde libero ratione nostrum eius laborum animi.',
+    skills: [
+      'Interest or experience in designing for emerging markets and new internet users',
+      'Strong core mobile interaction design skills to solve complex user flows and visually organized data',
+      'Solid command of typography, layout',
+    ],
+  },
+];

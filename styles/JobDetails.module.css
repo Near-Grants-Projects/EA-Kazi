@@ -1,0 +1,35 @@
+.jobdetails h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.jobdetails svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+.jobinfo > h3 {
+  color: var(--black-color);
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+.jobinfo > span {
+  color: #828282;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.desc > h4 {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.desc > p {
+  color: #333333;
+}
