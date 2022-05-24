@@ -223,3 +223,30 @@ export const assesmentCourse = [
     level: 'Advanced',
   },
 ];
+
+export const videoCourse = [
+  {
+    id: 1,
+    course: 'Section 1: Welcome to Jelurida UI/UX course',
+    type: 'Video',
+    duration: '14mins',
+  },
+  {
+    id: 2,
+    course: 'Section 2: Foundations of UX Design',
+    type: 'Reading',
+    duration: '20mins',
+  },
+  {
+    id: 3,
+    course: 'Section 3: The basics of User experience design',
+    type: 'Video',
+    duration: '10mins',
+  },
+  {
+    id: 4,
+    course: 'Section 3: Product development lifecycle',
+    type: 'Video',
+    duration: '25mins',
+  },
+];
