@@ -187,3 +187,39 @@ export const job = [
     ],
   },
 ];
+
+export const assesmentInfo = [
+  {
+    id: 1,
+    title: 'Jelafrica',
+    text: 'Tutor',
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653394602/ea-kazi/jelurida_rs1ytm.png',
+  },
+];
+
+export const assesmentCourse = [
+  {
+    id: 1,
+    course: 'Web Design: Strategy and Information Architecture',
+    price: '$150.000',
+    text: 'By Netninja',
+    rating: 4.7,
+    level: 'All level',
+  },
+  {
+    id: 2,
+    course: 'Web Development: Introduction to Docker',
+    price: '$50.000',
+    text: 'By Brad traversy',
+    rating: 4.5,
+    level: 'Beginner',
+  },
+  {
+    id: 3,
+    course: 'Building with typescript',
+    price: '$80.000',
+    text: 'By Academind',
+    rating: 4.8,
+    level: 'Advanced',
+  },
+];

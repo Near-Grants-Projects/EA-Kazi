@@ -1,0 +1,58 @@
+.acourseOne h2 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.acourseOne svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+.aframe {
+  margin-top: -80px;
+}
+
+.up {
+  margin-top: -80px;
+}
+
+.up h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.acourses h3 {
+  font-size: 15px;
+
+  font-weight: 400;
+}
+
+.acourses {
+  padding: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);
+}
+
+.awelcome {
+  display: flex;
+  flex-direction: column;
+}
+
+.awelcome h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.awelcome p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #91919f;
+  margin-top: -5px;
+}
+
+@media (max-width: 992px) {
+  .aframe {
+    margin-top: -80px !important;
+  }
+}

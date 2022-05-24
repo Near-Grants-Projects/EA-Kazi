@@ -1,0 +1,87 @@
+.Acourse {
+  /* margin-top: 40px; */
+  padding: 40px 20px;
+  background-color: #fbfdff;
+}
+
+.acourse h2 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.acourse svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+.acompany img {
+  width: 40px;
+}
+
+.acompany h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.acompany p {
+  font-size: 15px;
+  color: #828282;
+  font-weight: 400;
+  margin-top: -5px;
+}
+
+.youtube {
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.rcolor {
+  color: red;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+
+.adesign {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.adesign > h4 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.adesign > p {
+  color: #161719;
+
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: -5px;
+}
+
+.astar {
+  display: flex;
+  align-items: center;
+}
+
+.yelstar {
+  color: #ffc960 !important;
+  font-size: small;
+  margin-right: 5px;
+}
+
+.aspan {
+  margin-top: -15px;
+}
+
+.astar span {
+  font-size: 12px;
+  color: #91919f;
+}
