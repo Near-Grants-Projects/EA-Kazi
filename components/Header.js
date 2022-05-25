@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav, Button } from 'react-bootstrap';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import Modal from './Modal';
+// import Modal from './Modal';
 import styles from '@/styles/Header.module.css';
 
 export default function Header() {
@@ -34,9 +34,10 @@ export default function Header() {
               <a className='me-4'>FAQ</a>
             </Link>
 
-            <div>
-              {/* <Button className={styles.navBtn}>Sign in</Button> */}
-              <Modal />
+            <div className={styles.regBtn}>
+              <Link href='/account/register'>
+                <a className='me-4 btn btn-primary'>Sign Up</a>
+              </Link>
             </div>
           </Nav>
         </Navbar.Collapse>

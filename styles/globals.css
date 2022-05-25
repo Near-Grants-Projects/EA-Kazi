@@ -24,11 +24,18 @@ ul {
   list-style-type: none;
 }
 
-.form-control {
+.form-control,
+.form-select {
   height: 54px !important;
 }
 
 .shadow-sm {
-  background: #fbfdff;
+  /* background: #fbfdff; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register,
+.login {
+  background-color: var(--main-color);
+  height: 100vh;
 }

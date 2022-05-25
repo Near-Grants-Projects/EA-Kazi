@@ -14,3 +14,10 @@
   margin-top: 10px;
   color: var(--black-color);
 }
+
+.regBtn a {
+  color: var(--white-color) !important;
+  margin-top: 0px;
+  background-color: var(--blue-btn);
+  border: none;
+}
