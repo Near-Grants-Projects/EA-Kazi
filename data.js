@@ -88,19 +88,19 @@ export const lists = [
   },
   {
     id: 4,
-    text: 'Data analysis',
+    text: 'Statistics',
     img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653048783/ea-kazi/data_bhhev9.png',
   },
-  {
-    id: 5,
-    text: 'Design',
-    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/design_zmurad.png',
-  },
-  {
-    id: 6,
-    text: 'Devops',
-    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/devops_je0mgc.png',
-  },
+  // {
+  //   id: 5,
+  //   text: 'Design',
+  //   img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/design_zmurad.png',
+  // },
+  // {
+  //   id: 6,
+  //   text: 'Devops',
+  //   img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/devops_je0mgc.png',
+  // },
 ];
 
 export const portfolios = [

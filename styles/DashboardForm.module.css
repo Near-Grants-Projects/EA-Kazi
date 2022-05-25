@@ -1,10 +1,10 @@
-.dash h1 {
+/* .dashboardForm h1 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
 }
 
-.dash form {
+.dashboardForm form {
   margin-top: 10px;
 }
 
@@ -18,13 +18,13 @@
   top: 27%;
 }
 
-.dash svg {
+.dashboardForm svg {
   font-size: x-large;
   color: #b6b6b6;
 }
 
 @media (max-width: 768px) {
-  .dash {
+  .dashboardForm {
     padding: 0 10px;
   }
-}
+} */

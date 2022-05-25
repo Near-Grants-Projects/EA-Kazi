@@ -34,8 +34,43 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* dashboardForm */
+
+/* .dashboardForm h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+ 
+} */
+
+/* .dashboardForm form {
+  margin-top: 10px;
+}  */
+
+.wrapper {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 2.5%;
+  top: 27%;
+}
+
+.dashboardForm svg {
+  font-size: x-large;
+  color: #b6b6b6;
+}
+
+@media (max-width: 768px) {
+  .dashboardForm {
+    padding: 0 10px;
+  }
+}
+
 .register,
-.login {
+.login,
+.employer {
   background-color: var(--main-color);
   height: 100vh;
 }

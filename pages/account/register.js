@@ -1,9 +1,28 @@
+import { useState } from 'react';
+import { useRouter } from 'next/router';
 import { Container, Col, Form, Group, Label, Button } from 'react-bootstrap';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
 import CardTitle from './cardTitle';
 
 export default function Register() {
+  const router = useRouter();
+  const [value, setValue] = useState('');
+  const [employer] = useState('employer');
+  const [trainer] = useState('trainer');
+
+  const handleClick = (e) => {
+    if (value === employer) {
+      router.push('/employer');
+    } else {
+      router.push('/trainer');
+    }
+  };
+
+  const onChange = (e) => {
+    setValue(e.target.value);
+  };
+
   return (
     <Layout title='Sign Up'>
       <div className='register'>
@@ -23,10 +42,14 @@ export default function Register() {
                   <Form.Control type='email' placeholder='Email address' />
                 </Form.Group>
 
-                <Form.Select className='mb-4 fs-6 text-secondary' size='lg'>
+                <Form.Select
+                  className='mb-4 fs-6 text-secondary'
+                  size='lg'
+                  onChange={onChange}
+                >
                   <option>Sign up as</option>
-                  <option>Employer</option>
-                  <option>Trainer</option>
+                  <option value={employer}>Employer</option>
+                  <option value={trainer}>Trainer</option>
                 </Form.Select>
 
                 <Form.Group className='mb-4'>
@@ -34,7 +57,7 @@ export default function Register() {
                 </Form.Group>
 
                 <div className='d-grid gap-2 '>
-                  <Button size='lg' className='fs-6'>
+                  <Button onClick={handleClick} size='lg' className='fs-6'>
                     Create an account
                   </Button>
                   <p className='text-secondary text-center'>

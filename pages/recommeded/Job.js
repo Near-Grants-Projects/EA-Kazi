@@ -1,7 +1,7 @@
 import { Container } from 'react-bootstrap';
 import { jobs } from '../../data';
 import JobList from './jobList';
-import Title from './Title';
+import Title from '@/components/Title';
 import styles from '@/styles/JobList.module.css';
 
 export default function Job() {
