@@ -25,7 +25,7 @@ export default function CourseOne() {
             </Col>
 
             <Col lg={10} className='d-grid gap-2 pt-lg-1 mb-5 mx-auto'>
-              <Link href='#'>
+              <Link href='/success'>
                 <a className='btn btn-primary btn-lg fs-6'>Next</a>
               </Link>
             </Col>

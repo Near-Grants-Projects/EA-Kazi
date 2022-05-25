@@ -1,11 +1,9 @@
 .Acourse {
-  /* margin-top: 40px; */
   padding: 40px 20px;
   background-color: #fbfdff;
 }
 
 .acourse h2 {
-  font-family: var(--font-three);
   font-size: 16px;
   font-weight: 600;
   margin-top: -20px;
