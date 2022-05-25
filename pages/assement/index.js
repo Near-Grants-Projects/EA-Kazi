@@ -9,7 +9,7 @@ import styles from '@/styles/AssesementCourse.module.css';
 
 export default function AssesementCourse() {
   return (
-    <Layout title='Assesement Course'>
+    <Layout title='Freelancer Course'>
       <section className={styles.Acourse}>
         <Container fluid>
           <Row>

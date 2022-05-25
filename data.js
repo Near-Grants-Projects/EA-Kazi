@@ -245,7 +245,7 @@ export const videoCourse = [
   },
   {
     id: 4,
-    course: 'Section 3: Product development lifecycle',
+    course: 'Section 4: Product development lifecycle',
     type: 'Video',
     duration: '25mins',
   },
