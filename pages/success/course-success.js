@@ -11,20 +11,20 @@ export default function SuccessPage() {
       <div className={styles.success}>
         <Container>
           <Row>
-            <Col lg={8} className='mx-auto pt-3'>
+            <Col lg={6} className='mx-auto pt-3'>
               <>
-                <Link href='/assement/course-one'>
+                <Link href='/create-course/confirm-details'>
                   <a>
                     <BsArrowLeft />
                   </a>
                 </Link>
-                <SectionTitle title='Assesement Course' />
+                <SectionTitle title='Course Builder' />
                 <div className='text-center mt-4 mb-4'>
                   <BsCheckCircleFill className='fs-1' />
                 </div>
                 <p className='text-center fw-bold'>Successful</p>
                 <div className='text-center'>
-                  <NavLink to='/account/dashboard'>Back to home</NavLink>
+                  <NavLink to='/create-course/course'>Continue</NavLink>
                 </div>
               </>
             </Col>

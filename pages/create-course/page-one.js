@@ -11,7 +11,7 @@ export default function PageOne() {
       <section className='pageOne'>
         <Container>
           <Row>
-            <Col lg={10} className='mx-auto'>
+            <Col lg={8} className='mx-auto'>
               <div className={styles.course}>
                 <Link href='/employer'>
                   <a>
@@ -26,14 +26,17 @@ export default function PageOne() {
 
               <Form>
                 <div className={styles.cform}>
-                  <Form.Control type='text' className='mt-4 mb-4' />
-                  <Form.Control as='textarea' placeholder='Enter description' />
+                  <Form.Control
+                    type='text'
+                    className='mt-4 mb-4'
+                    placeholder='UX design project'
+                  />
                 </div>
               </Form>
 
               <div className='d-grid gap-2 mt-4'>
                 <Link href='/create-course/page-two'>
-                  <a className='btn btn-primary btn-lg fs-6'>Next</a>
+                  <a className='btn btn-primary btn-lg'>Next</a>
                 </Link>
               </div>
             </Col>

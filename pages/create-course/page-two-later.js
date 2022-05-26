@@ -5,13 +5,13 @@ import { BsArrowLeft } from 'react-icons/bs';
 import SectionTitle from '@/section/sectionTitle';
 import styles from '@/styles/CreateCourse.module.css';
 
-export default function PageOne() {
+export default function PageTwo() {
   return (
     <Layout title='Create Course'>
       <section className='pageTwo'>
         <Container>
           <Row>
-            <Col lg={8} className='mx-auto'>
+            <Col lg={10} className='mx-auto'>
               <div className={styles.course}>
                 <Link href='/create-course/page-one'>
                   <a>
@@ -21,14 +21,19 @@ export default function PageOne() {
                 <SectionTitle title='Create Course' />
               </div>
               <div className='mt-4 text-center'>
-                <SectionTitle title='Kindly describe what the project is about' />
+                <SectionTitle title='What is the name of the project they would work on?' />
               </div>
 
               <Form>
                 <div className={styles.cform}>
                   <Form.Control
+                    type='text'
+                    className='mt-4 mb-4'
+                    placeholder='UI/UI complete course'
+                  />
+                  <Form.Control
                     as='textarea'
-                    placeholder='Create ui/ux design  prototype for our mobile app'
+                    placeholder='This course teaches the basics of UI/UX. It is the best course for beginners who want to shape their career as a designer'
                   />
                 </div>
               </Form>

@@ -8,12 +8,12 @@ import styles from '@/styles/CreateCourse.module.css';
 export default function PageOne() {
   return (
     <Layout title='Create Course'>
-      <section className='pageTwo'>
+      <section className='pageOne'>
         <Container>
           <Row>
-            <Col lg={8} className='mx-auto'>
+            <Col lg={10} className='mx-auto'>
               <div className={styles.course}>
-                <Link href='/create-course/page-one'>
+                <Link href='/employer'>
                   <a>
                     <BsArrowLeft />
                   </a>
@@ -21,20 +21,18 @@ export default function PageOne() {
                 <SectionTitle title='Create Course' />
               </div>
               <div className='mt-4 text-center'>
-                <SectionTitle title='Kindly describe what the project is about' />
+                <SectionTitle title='What is the name of the project they would work on?' />
               </div>
 
               <Form>
                 <div className={styles.cform}>
-                  <Form.Control
-                    as='textarea'
-                    placeholder='Create ui/ux design  prototype for our mobile app'
-                  />
+                  <Form.Control type='text' className='mt-4 mb-4' />
+                  <Form.Control as='textarea' placeholder='Enter description' />
                 </div>
               </Form>
 
               <div className='d-grid gap-2 mt-4'>
-                <Link href='/create-course/page-three'>
+                <Link href='/create-course/page-two'>
                   <a className='btn btn-primary btn-lg'>Next</a>
                 </Link>
               </div>

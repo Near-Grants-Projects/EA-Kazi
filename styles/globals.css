@@ -6,6 +6,7 @@
   --main-color: #fbfdff;
   --gray-color: #b8bec6;
   --blue-btn: #4086f4;
+  --form-color: #f1f6ff;
   --blue-color: rgba(64, 134, 244, 0.08);
   --padding: 20px 10px;
   --font: 'Poppins', sans-serif;
@@ -22,6 +23,7 @@ a {
 
 ul {
   list-style-type: none;
+  line-height: 2;
 }
 
 .form-control,
@@ -60,9 +62,11 @@ ul {
 .login,
 .employer,
 .pageOne,
-.pageTwo {
+.pageTwo,
+.pageThree,
+.settings {
   background-color: var(--main-color);
-  height: 100vh;
+  /* height: 100vh; */
   padding: 40px 20px;
 }
 

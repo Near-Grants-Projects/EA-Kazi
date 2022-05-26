@@ -250,3 +250,16 @@ export const videoCourse = [
     duration: '25mins',
   },
 ];
+
+export const details = [
+  {
+    id: 1,
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653575685/ea-kazi/details_pkjv6i.png',
+    title: 'UX Design Project',
+    amount: 'N50,000 - N100,000',
+    text: [
+      'Create ui/ux design  prototype for our mobile app',
+      'UI/UX Design skills required',
+    ],
+  },
+];

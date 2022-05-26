@@ -1,5 +1,4 @@
 .course h2 {
-  font-family: var(--font-three);
   font-size: 16px;
   font-weight: 600;
   margin-top: -20px;
@@ -10,13 +9,12 @@
   color: var(--black-color);
 }
 
-/* Course one start */
-.cform input {
-  background-color: #f1f6ff;
+.cform input,
+.cform select {
+  background-color: var(--form-color);
 }
 
 .cform textarea {
   height: 150px !important;
-  background-color: #f1f6ff;
+  background-color: var(--form-color);
 }
-/* Course one end */
