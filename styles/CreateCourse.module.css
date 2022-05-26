@@ -1,0 +1,22 @@
+.course h2 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.course svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+/* Course one start */
+.cform input {
+  background-color: #f1f6ff;
+}
+
+.cform textarea {
+  height: 150px !important;
+  background-color: #f1f6ff;
+}
+/* Course one end */

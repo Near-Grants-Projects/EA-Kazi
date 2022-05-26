@@ -9,20 +9,22 @@ import ListInfo from 'pages/dashboardContent/listInfo';
 
 export default function Employer() {
   return (
-    <div className='employer px-5'>
-      <Sidebar />
-      <Col lg={8} className='mx-auto'>
-        <EmployerForm />
-        <ListInfo />
-        <ListType />
-        <PublishJobs />
+    <Layout title='Employer'>
+      <div className='employer px-5'>
+        <Sidebar />
+        <Col lg={8} className='mx-auto'>
+          <EmployerForm />
+          <ListInfo />
+          <ListType />
+          <PublishJobs />
 
-        <div className='text-center'>
-          <Link href='/create-course'>
-            <a className='btn btn-primary'>Next</a>
-          </Link>
-        </div>
-      </Col>
-    </div>
+          <div className='text-center'>
+            <Link href='/create-course/page-one'>
+              <a className='btn btn-primary'>Next</a>
+            </Link>
+          </div>
+        </Col>
+      </div>
+    </Layout>
   );
 }

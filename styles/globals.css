@@ -30,23 +30,10 @@ ul {
 }
 
 .shadow-sm {
-  /* background: #fbfdff; */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* dashboardForm */
-
-/* .dashboardForm h1 {
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 28px;
- 
-} */
-
-/* .dashboardForm form {
-  margin-top: 10px;
-}  */
-
 .wrapper {
   position: relative;
 }
@@ -68,11 +55,15 @@ ul {
   }
 }
 
+/* Section styles */
 .register,
 .login,
-.employer {
+.employer,
+.pageOne,
+.pageTwo {
   background-color: var(--main-color);
   height: 100vh;
+  padding: 40px 20px;
 }
 
 .employer {
