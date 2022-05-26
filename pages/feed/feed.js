@@ -12,8 +12,8 @@ export default function Feed() {
     <div className={styles.feed}>
       <Col lg={8} xl={10} xxl={10} className='ms-auto mt-4'>
         <DashboardForm />
-        <ListType />
         <ListInfo />
+        <ListType />
         <Job />
 
         <div className='d-grid gap-2'>
