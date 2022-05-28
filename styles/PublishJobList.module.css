@@ -1,0 +1,13 @@
+.role {
+  font-size: 15px;
+}
+
+.text,
+.amount {
+  font-size: 13px;
+  color: gray;
+}
+
+.amount {
+  margin-left: auto;
+}

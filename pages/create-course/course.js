@@ -5,7 +5,7 @@ import ListType from 'pages/listType/listType';
 import Sidebar from 'pages/sidebar/sidebar';
 import PublishJobs from 'pages/employer/publishJobs';
 import Title from '@/components/Title';
-import AssesementCourseList from 'pages/assement/assementCourseList';
+import PublishedJobs from './publishedJobs';
 
 export default function PostedCourse() {
   return (
@@ -16,7 +16,7 @@ export default function PostedCourse() {
         <ListInfo />
         <ListType />
         <Title title='Published Jobs' info='See all' />
-        <AssesementCourseList />
+        <PublishedJobs />
       </Col>
     </div>
   );

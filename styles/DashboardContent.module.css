@@ -4,6 +4,10 @@
   margin-top: 20px;
 }
 
+.test {
+  font-size: 10px !important;
+}
+
 .gridC {
   background: rgba(64, 134, 244, 0.08);
   border-radius: 12px;

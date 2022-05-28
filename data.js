@@ -263,3 +263,36 @@ export const details = [
     ],
   },
 ];
+
+export const publishJobs = [
+  {
+    id: 1,
+    role: ' UX Design Project',
+    text: 'Ui/Ux Design skills required',
+    amount: 'N50,000 - N100,000',
+  },
+  {
+    id: 2,
+    role: ' UX Design Project',
+    text: 'Ui/Ux Design skills required',
+    amount: 'N50,000 - N100,000',
+  },
+  {
+    id: 3,
+    role: ' UX Design Project',
+    text: 'Ui/Ux Design skills required',
+    amount: 'N50,000 - N100,000',
+  },
+  {
+    id: 4,
+    role: ' UX Design Project',
+    text: 'Ui/Ux Design skills required',
+    amount: 'N50,000 - N100,000',
+  },
+  {
+    id: 5,
+    role: ' UX Design Project',
+    text: 'Ui/Ux Design skills required',
+    amount: 'N50,000 - N100,000',
+  },
+];
