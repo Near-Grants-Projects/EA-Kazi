@@ -61,10 +61,12 @@ ul {
 .register,
 .login,
 .employer,
+.trainer,
 .pageOne,
 .pageTwo,
 .pageThree,
-.settings {
+.settings,
+.builder {
   background-color: var(--main-color);
   /* height: 100vh; */
   padding: 40px 20px;

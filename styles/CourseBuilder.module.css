@@ -1,0 +1,33 @@
+.builder h2 {
+  font-family: var(--font-three);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: -20px;
+}
+
+.builder svg {
+  font-size: x-large;
+  color: var(--black-color);
+}
+
+.fbuilder textarea {
+  height: 150px !important;
+  background-color: #f1f6ff;
+}
+
+.bdotted {
+  text-align: center;
+  border: 1px dashed gray !important;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.bdotted > svg {
+  font-size: 1.5rem;
+}
+
+/* Builder two starts */
+.cimg {
+  margin-top: -60px;
+  text-align: center;
+}
