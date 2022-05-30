@@ -12,7 +12,7 @@ export default function Employer() {
     <Layout title='Employer'>
       <div className='employer px-5'>
         <Sidebar />
-        <Col lg={8} className='mx-auto'>
+        <Col lg={9} className='mx-auto'>
           <EmployerForm />
           <ListInfo />
           <ListType />

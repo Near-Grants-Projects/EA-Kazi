@@ -7,16 +7,23 @@ export const data = [
   },
   {
     id: 2,
-    title: 'Bid for Jobs',
+    title: 'Find Recruiters',
     info: 'Click here to get started',
     img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1652981099/ea-kazi/job_lxef9h.png',
   },
   {
     id: 3,
-    title: 'Find Recruiters',
+    title: 'Bid for Jobs',
     info: 'Click here to get started',
     img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1652981099/ea-kazi/job_lxef9h.png',
   },
+
+  // {
+  //   id: 4,
+  //   title: 'Get jobs',
+  //   info: 'Click here to get started',
+  //   img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1652981099/ea-kazi/job_lxef9h.png',
+  // },
 ];
 
 export const jobs = [
@@ -91,16 +98,26 @@ export const lists = [
     text: 'Statistics',
     img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653048783/ea-kazi/data_bhhev9.png',
   },
-  // {
-  //   id: 5,
-  //   text: 'Design',
-  //   img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/design_zmurad.png',
-  // },
-  // {
-  //   id: 6,
-  //   text: 'Devops',
-  //   img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/devops_je0mgc.png',
-  // },
+  {
+    id: 5,
+    text: 'Design',
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/design_zmurad.png',
+  },
+  {
+    id: 6,
+    text: 'Devops',
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/devops_je0mgc.png',
+  },
+  {
+    id: 7,
+    text: 'Photography',
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046397/ea-kazi/media_qdqgpy.png',
+  },
+  {
+    id: 8,
+    text: 'Marketing',
+    img: 'https://res.cloudinary.com/dpxs9ause/image/upload/v1653046396/ea-kazi/design_zmurad.png',
+  },
 ];
 
 export const portfolios = [

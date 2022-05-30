@@ -9,14 +9,14 @@ export default function DashboardForm() {
           <Col lg={12} className='mt-4 ms-lg-2'>
             <h1 className='fs-3 fw-bold'>Hi, Marv</h1>
             <Form>
-              <div className='wrapper'>
+              <div className='wrapper me-4'>
                 <div className='icon'>
                   <BsSearch />
                 </div>
                 <Form.Control
                   className='text-secondary fs-6'
                   type='text'
-                  placeholder='e.g Game development jobs...'
+                  placeholder='e.g design jobs'
                 />
               </div>
             </Form>

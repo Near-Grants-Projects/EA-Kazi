@@ -9,6 +9,7 @@ export default function PublishJobList({ item }) {
         <h5 className={styles.role}>{role}</h5>
         <p className={styles.text}>{text}</p>
       </div>
+
       <div className={styles.amount}>{amount}</div>
     </div>
   );

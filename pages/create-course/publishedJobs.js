@@ -4,7 +4,7 @@ import PublishJobList from './publishedJobList';
 
 export default function PublishedJobs() {
   return (
-    <Container>
+    <Container className='px-4 mt-4'>
       {publishJobs.map((item) => (
         <PublishJobList key={item.id} item={item} />
       ))}

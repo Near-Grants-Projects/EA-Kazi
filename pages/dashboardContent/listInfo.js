@@ -6,10 +6,12 @@ import styles from '@/styles/DashboardContent.module.css';
 export default function ListInfo() {
   return (
     <Container>
-      <div className={styles.grid}>
-        {data.map((item) => (
-          <DashboardContent key={item.id} item={item} />
-        ))}
+      <div className='table-responsive'>
+        <div className={styles.grid}>
+          {data.map((item) => (
+            <DashboardContent key={item.id} item={item} />
+          ))}
+        </div>
       </div>
     </Container>
   );
