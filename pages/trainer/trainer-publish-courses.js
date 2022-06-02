@@ -1,9 +1,9 @@
 import { Col } from 'react-bootstrap';
 import Layout from '@/components/Layout';
-import EmployerForm from 'pages/employer/employerForm';
-import ListType from 'pages/listType/listType';
-import Sidebar from 'pages/sidebar/sidebar';
-import ListInfo from 'pages/dashboardContent/listInfo';
+import EmployerForm from '@/components/EmployerForm/EmployerForm';
+import Badge from '@/components/DashboardBadge/Badge';
+import Sidebar from '@/components/Sidebar';
+import ListInfo from '@/components/DashboardTop/ListInfo';
 import Title from '@/components/Title';
 import PublishedCourses from 'pages/trainer/publishedCourses';
 
@@ -15,7 +15,7 @@ export default function TrainerPublishedCourses() {
         <Col lg={8} className='mx-auto'>
           <EmployerForm />
           <ListInfo />
-          <ListType />
+          <Badge />
           <Title title='Published Courses' info='See all' />
           <PublishedCourses />
         </Col>

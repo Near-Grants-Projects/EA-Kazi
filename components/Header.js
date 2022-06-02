@@ -1,7 +1,6 @@
-import { Navbar, Container, Nav, Button } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-// import Modal from './Modal';
 import styles from '@/styles/Header.module.css';
 
 export default function Header() {

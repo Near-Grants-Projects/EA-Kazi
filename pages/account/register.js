@@ -27,8 +27,8 @@ export default function Register() {
     <Layout title='Sign Up'>
       <div className='register'>
         <Container>
-          <Col lg={6} className='mx-auto p-4'>
-            <div className='card card-body shadow-sm p-4'>
+          <Col lg={6} className='mx-auto'>
+            <div className='card card-body shadow-sm'>
               <CardTitle
                 title='Sign Up'
                 text='Sign up for an EA Kazi account'
@@ -62,7 +62,7 @@ export default function Register() {
                   </Button>
                   <p className='text-secondary text-center'>
                     Already have an account?
-                    <Link href='/account/login'>
+                    <Link href='#'>
                       <a className='ms-1'>Sign in</a>
                     </Link>
                   </p>

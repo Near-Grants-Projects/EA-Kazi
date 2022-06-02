@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button } from 'react-bootstrap';
+import Link from 'next/link';
 import Layout from './Layout';
 import HeroInfo from './HeroInfo';
 import HeroImage from './HeroImage';
@@ -16,7 +17,9 @@ export default function HeroDesktop() {
                 info='Freelancers can bid for jobs after acquiring the required skillset
               and certifications'
               />
-              <Button className={styles.startBtn}>Get Started</Button>
+              <Link href='/account/register'>
+                <a className='btn btn-primary px-4 py-2'>Get Started</a>
+              </Link>
             </Col>
 
             <Col lg={5}>

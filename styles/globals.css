@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 :root {
   --white-color: #fff;
   --black-color: #000;
@@ -72,12 +70,15 @@ ul {
 .pageTwo,
 .pageThree,
 .settings,
-.builder {
+.builder,
+.jobs {
   background-color: var(--main-color);
   /* height: 100vh; */
   padding: 40px 20px;
 }
 
-.employer {
-  margin-bottom: 100px;
+.employer,
+.trainer,
+.jobs {
+  padding-bottom: 100px;
 }

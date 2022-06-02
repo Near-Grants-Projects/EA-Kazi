@@ -1,8 +1,8 @@
 import { Col } from 'react-bootstrap';
-import ListInfo from 'pages/dashboardContent/listInfo';
-import DashboardForm from 'pages/dashboardForm/dashboardForm';
-import ListType from 'pages/listType/listType';
-import Sidebar from 'pages/sidebar/sidebar';
+import EmployerForm from '@/components/EmployerForm/EmployerForm';
+import ListInfo from '@/components/DashboardTop/ListInfo';
+import DashboardBadge from '@/components/DashboardBadge/Badge';
+import Sidebar from '@/components/Sidebar';
 import PublishJobs from 'pages/employer/publishJobs';
 import Title from '@/components/Title';
 import PublishedJobs from './publishedJobs';
@@ -11,10 +11,10 @@ export default function PostedCourse() {
   return (
     <div className='employer px-5'>
       <Sidebar />
-      <Col lg={9} className='mx-auto'>
-        <DashboardForm />
+      <Col lg={8} className='mx-auto'>
+        <EmployerForm />
         <ListInfo />
-        <ListType />
+        <DashboardBadge />
         <Title title='Published Jobs' info='See all' />
         <PublishedJobs />
       </Col>

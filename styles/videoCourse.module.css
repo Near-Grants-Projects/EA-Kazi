@@ -3,6 +3,13 @@
   background-color: #fbfdff;
 }
 
+.flex {
+  display: grid;
+  gap: 1rem;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .acourse h2 {
   font-size: 16px;
   font-weight: 600;
@@ -13,7 +20,8 @@
   display: flex;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
-  padding: 15px;
+  /* padding: 15px; */
+  padding: 0 10px 20px 10px;
 }
 
 .font {
@@ -31,4 +39,11 @@
 .fontSize span {
   font-size: 14px;
   color: #91919f;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

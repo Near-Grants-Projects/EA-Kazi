@@ -12,10 +12,6 @@ export default function PublishJobs() {
         <div className={styles.apublish}>
           <BiErrorCircle />
           <p className='mt-2'>You have no published Jobs yet..</p>
-
-          <button className='btn btn-link'>
-            Click create a course to get started
-          </button>
         </div>
       </Col>
     </>

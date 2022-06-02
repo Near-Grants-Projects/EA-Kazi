@@ -1,26 +1,28 @@
 import { Col } from 'react-bootstrap';
 import Link from 'next/link';
 import Layout from '@/components/Layout';
-import EmployerForm from 'pages/employer/employerForm';
-import ListType from 'pages/listType/listType';
-import Sidebar from 'pages/sidebar/sidebar';
+import EmployerForm from '@/components/EmployerForm/EmployerForm';
+import Badge from '@/components/DashboardBadge/Badge';
+import Sidebar from '@/components/Sidebar';
 import PublishJobs from 'pages/employer/publishJobs';
-import ListInfo from 'pages/dashboardContent/listInfo';
+import ListInfo from '@/components/DashboardTop/ListInfo';
 
 export default function Trainer() {
   return (
     <Layout title='Trainer'>
-      <div className='trainer px-5'>
+      <div className='trainer px-3'>
         <Sidebar />
         <Col lg={8} className='mx-auto'>
           <EmployerForm />
           <ListInfo />
-          <ListType />
+          <Badge />
           <PublishJobs />
 
           <div className='text-center'>
             <Link href='/trainer/page-one'>
-              <a className='btn btn-primary'>Next</a>
+              <a className='btn btn-link text-secondary'>
+                Click create a course to get started
+              </a>
             </Link>
           </div>
         </Col>
